@@ -23,6 +23,7 @@ import image22 from '../src/assets/photo/navigation.png'
 import image23 from '../src/assets/photo/native-authentication.png'
 import image24 from '../src/assets/photo/add-goal.png'
 import image25 from '../src/assets/photo/clock.png'
+import image26 from '../src/assets/photo/portfolio.png'
 export const data = [
     {
       name: "CommentPage",
@@ -273,7 +274,18 @@ export const data = [
       responsive:'No Responsive'
     },
     
-    
+    {
+      name: "Portfolio",
+      image: image26,
+      description:
+        "",
+      link: "https://darling-sawine-959214.netlify.app",
+      language: "React-Js",
+      git:'https://github.com/lukak1997/portfolio',
+
+      responsive:'Responsive'
+      
+    },
     
    
   ];
